@@ -1,0 +1,219 @@
+:root {
+    --main: rgb(6, 57, 108);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.font-electrolize {
+    font-family: 'Electrolize', sans-serif;
+}
+
+.px-7 {
+    padding: 0vw 7vw 0vw 7vw;
+}
+
+.bg-cant {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.7), rgba(6, 57, 108, 0.7)), url(./media/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-power {
+    background-image: linear-gradient(rgba(4, 34, 64, 0.5), rgba(6, 57, 108, 0.7)), url(./media/power-plant-4712830_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.bg-nav {
+    background-color: var(--main);
+}
+
+.l-border {
+    border-left: 2px solid white;
+}
+
+.text-blue {
+    color: var(--main);
+}
+
+.vh-60 {
+    height: 60vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.apici::before {
+    content: "“";
+    font-size: 6rem;
+    color: var(--main);
+    position: absolute;
+    left: -40px;
+    top: -50px;
+}
+
+.panel {
+    width: 30vw;
+    height: auto;
+}
+
+.btn-blue {
+    width: auto;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--main);
+    border-radius: 0;
+}
+
+.bg-blue {
+    background-color: var(--main);
+    border: 3px solid white;
+}
+
+@media only screen and (min-width: 992px) {
+    .l-col {
+        position: absolute;
+        left: 0%;
+        top: -10%;
+        width: 55%;
+        height: auto;
+        padding-right: 7vw;
+    }
+
+    .r-footer-col {
+        position: absolute;
+        right: 5%;
+        top: -15%;
+        width: 35%;
+        height: auto;
+        padding-right: 7vw;
+        margin: auto;
+    }
+
+    .r-col {
+        z-index: 5;
+        width: 50%;
+        height: 80vh;
+    }
+
+    .cont-foto {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        padding-right: 7vw;
+    }
+
+    .some-stuff {
+        position: absolute;
+        bottom: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-stuff {
+        height: 20vh;
+    }
+
+    .l-col {
+        padding-right: 7vw;
+    }
+}
+
+.usamap {
+    width: 100%;
+    height: auto;
+}
+
+.cont-opaco {
+    background: linear-gradient(to right, rgba(6, 57, 108, 0.6), transparent, transparent);
+    width: 93%;
+    height: 20vh;
+    position: relative;
+}
+
+.cont-foto {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    opacity: 1;
+    width: 93%;
+    height: 100%;
+    top: 20px;
+    left: 25px;
+}
+
+.bg-stuff {
+    background-color: var(--main);
+    height: 25vh;
+    position: relative;
+}
+
+
+.cont-pic {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    top: 15px;
+    left: 20px;
+}
+
+.sun {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(/media/sun.png);
+}
+
+.wind {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(/media/wind.png);
+}
+
+.wave {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(/media/wave.png);
+}
+
+.gas {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(/media/gas.png);
+}
+
+.oil {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(/media/oil.png);
+}
+
+.atom {
+    background-image: linear-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(/media/nuclear.png);
+}
+
+
+.card-download {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.border-download {
+    border-radius: 4px;
+    border: 3px solid grey;
+    color: grey;
+}
+
+.linea-bottom {
+    border-bottom: 10px solid var(--main);
+}
+
+.bg-blue-footer {
+    background-color: var(--main);
+}
